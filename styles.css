@@ -110,6 +110,8 @@ html{
     margin-left: .15rem;
 }
 
+/*Hero End */
+
 .img-set{
     display: flex;
     flex-direction: column;
@@ -135,8 +137,186 @@ html{
 
 .line-pattern-2{
     width: 12rem;
-    align-self: flex-end;
+    align-self: flex-end; 
     margin-top: -21rem;
     margin-right: 5rem;
     z-index: -1;
+}
+
+/*img set end*/
+
+.integration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.integrations-topic{
+    color:#101828;
+    font-size: 1.5rem;
+}
+
+.integrations-text{
+    color: #475467;
+    text-align: center;
+    padding: 1rem;
+}
+
+.site-cards{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.site-card-row{
+    display: flex;
+    margin: 1rem;
+}
+
+.site-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.card-img{
+    margin: 1rem;
+}
+
+.card-title{
+    margin-bottom: 1rem;
+}
+
+.card-text{
+    text-align: center;
+    font-size: .9rem;
+    color: #475467;
+}
+.card-link{
+    margin: 1rem;
+    text-decoration: none;
+    color: #6941c6;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+/*app integration section end*/
+
+.stats-topic-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.stats-topic{
+    margin: 1rem;
+    font-size: 1.8rem;
+    color: #101828;
+}
+
+.stats-text{
+    color: #475467;
+}
+
+.stats{
+    background-color: #F9FAFB;
+    display: flex;
+    margin: 2rem;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.stat-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.stat-item-topic{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #7F56D9;
+
+}
+
+.stat-item-text{
+    font-weight: 500;
+    margin: .8rem;
+    color: #101828;
+}
+
+/*stat section end*/
+
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+.features-text{
+    margin: 1rem;
+    align-items: center;
+}
+
+.features-heading{
+    font-size: 1.8rem;
+    margin: 1rem;
+    color: #101828;
+}
+
+.features-subheading{
+    text-align: center;
+    color: #475467;
+}
+
+.features-img{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-pc{
+    width: 50rem;
+}
+
+.features-mobile{
+    width: 15rem;
+    margin-top: -32.5rem;
+    margin-left: -7rem;
+}
+
+.features-cards{
+    margin: 1rem;
+    display: flex;
+}
+
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.feature-card-topic{
+    margin: 1rem;
+}
+
+.feature-card-text{
+    text-align: center;
+    margin-top: 0;
+    margin: 1rem;
+    color: #475467;
+}
+
+.feature-card-link{
+    text-decoration: none;
+    color: #6941C6;
+    font-weight: 500;
 }
