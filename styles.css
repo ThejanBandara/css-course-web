@@ -171,7 +171,7 @@ hr{
 
 .site-cards{
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
 }
 .site-card-row{
     display: flex;
@@ -233,6 +233,7 @@ hr{
     margin: 2rem;
     width: 90%;
     justify-content: space-evenly;
+    margin-bottom: 10rem;
 }
 
 .stat-item{
@@ -303,6 +304,7 @@ hr{
 .features-cards{
     margin: 1rem;
     display: flex;
+    margin-bottom: 10rem;
 }
 
 .feature-card{
@@ -362,6 +364,7 @@ hr{
     align-items: center;
     justify-content: space-between;
     margin: 3rem;
+    margin-bottom: 10rem;
     width: 90%;
 }
 .pricing-card{
@@ -536,7 +539,9 @@ hr{
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 10rem;
+    background: #F9FAFB;
+    width: 100%;
 }
 
 .faq-footer-img{
@@ -573,6 +578,8 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color:  #F9FAFB;
+    margin-bottom: 10rem;
 }
 
 .trusted-by-text{
@@ -593,5 +600,53 @@ hr{
 
 /*Social proof section end*/
 
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
 
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-cols{
+    display: flex;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.footer-link-col{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-right: 3rem;
+}
+
+.play-store-actions{
+    margin-right: 5rem;
+}
+
+.footer-col-title{
+    font-size: 1rem;
+    margin:.8rem;
+}
+
+.footer-link{
+    font-size: 1rem;
+    margin: .8rem;
+    text-decoration: none;
+    color: #6941C6;
+    font-weight: 500;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 
