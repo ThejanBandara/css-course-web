@@ -11,6 +11,11 @@ html{
     font-size: 16px;
 }
 
+hr{
+    color:  #475467;
+    opacity: 20%;
+    height: .3px;
+}
 .site-nav{
     display: flex;
     justify-content: space-between;
@@ -154,12 +159,13 @@ html{
 
 .integrations-topic{
     color:#101828;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .integrations-text{
     color: #475467;
     text-align: center;
+    font-size: 1.1rem;
     padding: 1rem;
 }
 
@@ -212,12 +218,13 @@ html{
 
 .stats-topic{
     margin: 1rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #101828;
 }
 
 .stats-text{
     color: #475467;
+    font-size: 1.1rem;
 }
 
 .stats{
@@ -236,14 +243,15 @@ html{
 }
 
 .stat-item-topic{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 500;
     color: #7F56D9;
 
 }
 
 .stat-item-text{
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1.1rem;
     margin: .8rem;
     color: #101828;
 }
@@ -265,7 +273,7 @@ html{
 }
 
 .features-heading{
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin: 1rem;
     color: #101828;
 }
@@ -273,6 +281,7 @@ html{
 .features-subheading{
     text-align: center;
     color: #475467;
+    font-size: 1.1rem;
 }
 
 .features-img{
@@ -320,3 +329,269 @@ html{
     color: #6941C6;
     font-weight: 500;
 }
+
+/*features section end*/
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+.pricing-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-title{
+    font-size: 2.2rem;
+    margin: 1rem;
+    color: #101828;
+}
+
+.pricing-subtitle{
+    color: #475467;
+}
+
+.pricing-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem;
+    width: 90%;
+}
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EAECF0;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 2rem;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.pricing-card-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.pricing-card-body{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-features-checklist{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.checklist-item{
+    display: flex;
+    margin-bottom: .3rem;
+    align-items: center;
+    margin-bottom: .7rem;
+}
+
+.checklist-check{
+    padding: .3rem;
+    margin-right: .7rem;
+    background-color: #DCFAE6;
+    color: #079455;
+    border-radius: 3rem;
+}
+
+.checklist-item-check{
+    color: #475467;
+    font-size: .9rem;
+}
+
+.pricing-card-price-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pricing-card-dollar{
+    font-size: 2.5rem;
+    color: #101828;
+
+}
+.pricing-card-price{
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #101828;
+}
+
+.pricing-per-month-text{
+    align-self: flex-end;
+    margin-bottom: .7rem;
+    color: #475467;
+}
+
+.pricing-card-heading-title{
+    color: #101828;
+    margin-bottom: .3rem;
+}
+
+.pricing-card-heading-text{
+    color: #475467;
+}
+
+.plan-features-title{
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    color: #101828;
+}
+
+.plan-features-text{
+    color: #475467;
+    margin-bottom: 1rem;
+}
+
+.plan-features-text span{
+    font-weight: 500;
+}
+
+.pricing-card-footer{
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-get-started-button{
+    width: 90%;
+    padding: 1rem;
+    border: none;
+    background-color: #7F56D9;
+    color: white;
+    border-radius: .8rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: roboto;
+}
+
+/*pricing section end*/
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq-heading{
+    font-size: 2rem;
+    margin: 1rem;
+    color: #101828;
+}
+
+.faq-subtitle{
+    color: #475467;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+.faq-question-box{
+    width: 110%;
+}
+
+.faq-item{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+.faq-question{
+    color: #101828;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.faq-question-text{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.faq-question-answer{
+    color: #475467;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.faq-question-plus{
+    transform: scale(1.2);
+    color: #475467;
+}
+
+.faq-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.faq-footer-img{
+    transform: scale(3);
+    padding: 1rem;
+    color: #101828;
+}
+
+.faq-footer-title{
+    color: #101828;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.faq-footer-text{
+    font-size: 1.1rem;
+    color: #475467;
+    margin-bottom: 1rem;
+}
+
+.faq-footer-button{
+    margin: 1.5rem;
+    padding: .8rem 2rem;
+    border: hidden;
+    background-color: #7F56D9;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: .5rem;
+}
+
+/*faq section end*/
+
+.social-proof{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trusted-by-text{
+    color: #475467;
+    font-size: 1.4rem;
+    margin: 1.5rem;
+}
+
+.prrof-company-logos{
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.proof-img{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*Social proof section end*/
+
+
+
