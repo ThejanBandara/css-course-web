@@ -76,16 +76,16 @@
 }
 
 .line-chart{
-    width: 55rem;
+    width: 80%;
     align-self: center;
     margin-top: -20rem;
 }
 
 .pie-chart{
-    width: 14rem;
+    width: 18%;
     align-self: flex-end;
     margin-top: -16rem;
-    margin-right: 13rem;
+    margin-right: 12%;
 }
 
 .line-pattern-2{
@@ -95,3 +95,27 @@
     margin-right: 5rem;
     z-index: -1;
 }
+
+@media (max-width:320px)  { 
+
+ }
+@media (max-width:481px)  {
+
+ }
+@media (max-width:641px)  {
+
+ }
+@media (max-width:961px)  { 
+    .line-pattern-1{
+        transform: scale(.8);
+    }
+    .line-pattern-2{
+        transform: scale(.8);
+    }
+    .line-chart{
+        transform: scale(.8);
+    }
+    .pie-chart{
+        transform: scale(.8);
+    }
+ }

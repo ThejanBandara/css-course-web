@@ -5,22 +5,43 @@
     <link rel="stylesheet" href="css/styles.css"> <!--Main css-->
     <link rel="stylesheet" href="css/nav.css"> <!--Navigation bar css-->
     <link rel="stylesheet" href="css/hero.css"> <!--Hero section css-->
-    <script src="https://kit.fontawesome.com/4d2f830ad4.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4d2f830ad4.js" crossorigin="anonymous"></script> <!--Font awesome cdn-->
+    <script src="js/script.js"></script> <!--main JS file-->
 </head>
 <body>
     <!--Navigation Start-->
-    <nav class="site-nav">
-        <div class="left-nav">
-            <img src="img/logo.png" alt="site-logo">
-            <a class="nav-link" href="">Home</a>
-            <a class="nav-link" href="">Products</a>
-            <a class="nav-link" href="">Resources</a>
-            <a class="nav-link" href="">Pricing</a>
-        </div>
+    <nav>
+        <!--Hamburger button-->
+        <button class="sidebar-open" onclick="sidebarOpen()">
+        <i class="fa-solid fa-bars"></i>
+        </button>
 
-        <div class="right-nav">
-            <a class="nav-link" href="">Log in</a>
-            <button class="nav-btn">Sign up</button>
+        <!--Navigation bar-->
+        <div class="site-nav">
+            <!--logo-->
+            <img class="site-nav-logo" src="img/logo.png" alt="site-logo">
+            <!--nav link container-->
+            <div class="link-container" id="sidebar">
+                <!--left links-->
+                <div class="left-nav">
+                    <a class="nav-link" href="">Home</a>
+                    <a class="nav-link" href="">Products</a>
+                    <a class="nav-link" href="">Resources</a>
+                    <a class="nav-link" href="">Pricing</a>
+                </div>
+                <!-- right-inks -->
+                <div class="right-nav">
+                        <a class="nav-link" href="">Log in</a>
+                        <button class="nav-btn">Sign up</button>
+                </div>
+                
+            <button class="sidebar-close" onclick="sidebarClose()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            </div>
+            <button class="close-div-btn" id="sidebar-close-bg" onclick="sidebarClose()">
+                <div class="close-div"></div>
+            </button>
         </div>
     </nav>
 
@@ -45,6 +66,7 @@
 
             </div>
         </section>
+
         <div class="img-set">
             <img class="line-pattern-1" src="img/line-pattern.png" alt="">
             <img class="line-chart" src="img/line-chart.png" alt="">
